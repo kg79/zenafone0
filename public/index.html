@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+      :root {
+	    --datPurp:hsl(184, 99%, 41%);
+      } body {
+        font-family:sans-serif;
+        margin:0;
+        background:#000;
+        width:100vw;
+        height:100vh;
+      } #zenafone {
+        font-family:'Dancing Script';
+	    color:var(--datPurp);
+	    margin:0;
+        font-size:250%;
+	    font-weight:bold;
+	    height:10vh;
+	    display:flex;
+	    justify-content:center;
+	    align-items:center;
+        width:100vw;
+      } #navigation {
+        display:flex;
+	    justify-content:center;
+	    align-items:center;
+        height:90vh;
+        margin:0;
+      } a {
+        color:var(--datPurp);
+      } table {
+        border-collapse:collapse;
+        text-align:center;
+        position:relative;
+        bottom:6vh;
+      } td, th {
+          color:var(--datPurp);
+          border:solid 1px var(--datPurp);
+      }
+        </style>
+    </head>
+    <body>
+
+        <section id='zenafone'>
+            zenafone
+        </section>
+
+        <section id='navigation'>
+            <table cellpadding='2'>
+                <th>
+
+                </th>
+                <th>
+                    Equal Temperament
+                </th>
+                <th>
+                    Just Intonation
+                </th>
+                <tr>
+                    <td>
+                        keyboard
+                    </td>
+                    <td>
+                        <a href='keyboardEqualTemperamentMajorScale'>major scale</a>
+                    </td>
+                    <td>
+                        <a href='keyboardJustIntonationMajorScale'>major scale</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        touch screen
+                    </td>
+                    <td>
+                        <a href='mobileEqualTemperamentMajorScale'>major scale</a>
+                    </td>
+                    <td>
+                        <a href='mobileJustIntonationMajorScale'>major scale</a>
+                    </td>
+                </tr>
+            </table>
+            
+            
+        </section>
+    
+    </body>
+</html>
